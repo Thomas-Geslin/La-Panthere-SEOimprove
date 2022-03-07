@@ -1,0 +1,111 @@
+/*Modification images de texte*/
+.title_bloc2 {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.txt_bloc2 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.txt_italic {
+    font-style: italic;
+}
+
+.txt_bloc4 {
+    font-size: 22px;
+    line-height: 25px;
+}
+/*Modifications du footer*/
+.bcg_color {
+    background-color: #b45c33!important;
+}
+
+.white {
+    color: white!important;
+}
+
+.footer_title {
+    color: black!important;
+    margin-bottom: 20px;
+}
+
+.footer_partner {
+    width: 99%!important;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.footer_ul {
+    list-style-type: none;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer_li{
+    color: black!important;
+}
+
+.footer_li a{
+    color: black!important;
+}
+
+.text_size_bigger {
+    font-size: 14px;
+}
+
+.social span{
+    color: black!important;
+}
+
+/*Modifications navbar contact*/
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav a {
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+/*Modifications body contact*/
+.contact_body {
+    display: flex;
+}
+.form_contact {
+    width: 70%;
+    margin: 0;
+    margin-left: 20%;
+}
+
+.form_part {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+.contact_info {
+    margin-left: 10%;
+    width: 30%;
+}
+
+.contact_info p {
+    line-height: 20px;
+    color: black!important;
+}
+
+.btn_contact {
+    width:  100%;
+    background-color: #c16134!important;
+}
+
+.footer_contact {
+    max-width: none;
+}
