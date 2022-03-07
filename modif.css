@@ -17,6 +17,7 @@
     font-size: 22px;
     line-height: 25px;
 }
+
 /*Modifications du footer*/
 .bcg_color {
     background-color: #b45c33!important;
@@ -45,6 +46,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
+    padding: 0;
 }
 
 .footer_li{
@@ -81,7 +83,7 @@
 .form_contact {
     width: 70%;
     margin: 0;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .form_part {
@@ -103,9 +105,65 @@
 
 .btn_contact {
     width:  100%;
-    background-color: #c16134!important;
+    background-color: #b45c33!important;
 }
 
 .footer_contact {
     max-width: none;
+}
+
+/*Modifications mobiles*/
+@media (max-width: 768px) {
+   .social {
+       display: flex;
+       justify-content: space-between;
+   } 
+}
+
+@media (max-width: 425px) {
+    .footer_ul {
+        flex-direction: column;
+    }
+    .bar {
+        display: none;
+    }
+    .footer_li {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 900px) {
+    .nav {
+        position: absolute;
+        right: 150px
+    }
+}
+@media (min-width: 768px) {
+    .nav {
+        position: absolute;
+        bottom: -50px;
+    }
+}
+
+@media (max-width: 1075px) {
+    .contact_body {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .form_contact {
+    margin-left: 10%;
+    }
+    .contact_info {
+        margin-top: 50px;
+    }
+    .text_size_bigger {
+        text-align: center ;
+    }
+
+    .info_info {
+        width: 300px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
 }
